@@ -33,7 +33,9 @@ function setup() {
 }
 
 function draw() {
-  background(51,153,255);
+  // background(51,153,255);
+  background(147, 204, 228);
+  // background(170, 209, 226);
   bubbles = bubbles.filter(bubble => {
     bubble.drawBubble()
     if(!bubble.pop) {

@@ -1,4 +1,7 @@
-TweenMax.from("#title-h1", 1, {ease: Circ.easeOut, x:-100, opacity: 0});
+TweenMax.from("#title-h1", 1, {
+  ease: Circ.easeOut, x:-100,
+  opacity: 0
+});
 TweenMax.from("#title-h2", 1, {ease: Circ.easeOut, x:100, opacity: 0});
 
 let bounce = new TimelineMax({

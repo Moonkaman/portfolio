@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,6 +8,11 @@
 
 body {
   font-family: "Muli", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
+  /* font-family: "Lato", sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #35536b;
 }
 
 header {
@@ -20,8 +27,8 @@ header {
 .title {
   position: absolute;
   color: white;
-  width: 100vh;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -34,7 +41,9 @@ header {
 }
 
 nav {
-  background: #bf4aa8;
+  /* background: #bf4aa8; */
+  /* background: #36b2b0; */
+  background: #35536b;
   padding: 20px;
   position: sticky;
 }
@@ -42,8 +51,13 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-  margin-right: 10px;
-  font-size: 18px;
+  margin-right: 20px;
+  font-size: 1.8rem;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #63a8c7;
 }
 
 #down-chev {
@@ -54,4 +68,33 @@ nav a {
   right: 50%;
   font-size: 34px;
   opacity: 0.5;
+}
+
+.sec-space {
+  padding: 100px 0;
+  border-bottom: 1px dashed #35536b;
+}
+
+section {
+  /* padding: 100px 0; */
+  /* border-bottom: 1px dashed #35536b; */
+}
+
+section p {
+  font-size: 1.6rem;
+}
+
+.skill-card {
+  border: 1px solid #35536b;
+  padding: 5px;
+  border-radius: 4px;
+  color: #35536b;
+  height: 202px;
+  padding: 10px;
+}
+
+.skill-card h4 {
+  margin: 0px;
+  color: #a8c060;
+  text-align: center;
 }
