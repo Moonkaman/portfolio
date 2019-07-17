@@ -46,7 +46,10 @@ nav {
   /* background: #36b2b0; */
   background: #35536b;
   padding: 20px;
+  position: -webkit-sticky;
   position: sticky;
+  z-index: 10;
+  top: 0px;
 }
 
 nav a {
@@ -86,17 +89,18 @@ section p {
 }
 
 .skill-card {
-  border: 1px solid #35536b;
+  border: 1px solid #a8c060;
   padding: 5px;
   border-radius: 4px;
   color: #35536b;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .skill-card h4 {
   margin: 0px;
   color: #a8c060;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* Media Queries */
