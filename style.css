@@ -101,8 +101,8 @@ section p {
 
 /* Media Queries */
 
-@media all and (device-width: 414px) and (device-height: 896px) and (orientation: portrait) {
+/* @media all and (device-width: 414px) and (device-height: 896px) and (orientation: portrait) {
   header {
     height: 896px;
   }
-}
+} */
