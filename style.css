@@ -98,3 +98,11 @@ section p {
   color: #a8c060;
   text-align: center;
 }
+
+/* Media Queries */
+
+@media all and (device-width: 414px) and (device-height: 896px) and (orientation: portrait) {
+  header {
+    height: 896px;
+  }
+}
