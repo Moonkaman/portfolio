@@ -18,6 +18,7 @@ body {
 header {
   height: 100vh;
   overflow: hidden;
+  background: #93cce4;
 }
 
 #canvas-parent {
@@ -57,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #63a8c7;
+  color: #a8c060;
 }
 
 #down-chev {
@@ -89,7 +90,6 @@ section p {
   padding: 5px;
   border-radius: 4px;
   color: #35536b;
-  height: 202px;
   padding: 10px;
 }
 
