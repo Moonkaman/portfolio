@@ -10,3 +10,5 @@ let bounce = new TimelineMax({
 });
 
 bounce.to('#down-chev', .5, {y: 15, opacity: 1})
+
+var scroll = new SmoothScroll('a[href*="#"]');
