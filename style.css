@@ -111,10 +111,23 @@ section p {
   }
 } */
 
-@media (max-width: 550px) {
+@media (max-width: 1000px) {
+  .sec-space {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 549px) {
   nav {
     text-align: center;
     padding: 20px 0;
+  }
+
+  .skill-card {
+    border-radius: 0px;
+    margin: 0px;
+    border: none;
+    border-bottom: 1px solid #a8c060;
   }
 }
 
