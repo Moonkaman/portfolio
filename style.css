@@ -110,3 +110,22 @@ section p {
     height: 896px;
   }
 } */
+
+@media (max-width: 550px) {
+  nav {
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 407px) {
+  nav a {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  section {
+    padding: 0 10px;
+  }
+}
