@@ -220,6 +220,11 @@ section p {
     max-height: none;
   }
 
+  .project-cont .pright .proj-desc {
+    max-height: none;
+    overflow: auto;
+  }
+
   .project-cont .manaje-img {
     content: url("Manaje-mobile.png");
   }
