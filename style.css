@@ -131,13 +131,13 @@ section p {
 }
 
 .project-cont .pright .proj-desc {
-  max-height: 75px;
+  max-height: 95px;
   overflow: auto;
 }
 
 .project-cont .pright .view {
   position: absolute;
-  bottom: 10px;
+  top: 10px;
   right: 10px;
 }
 
