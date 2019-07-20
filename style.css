@@ -272,4 +272,8 @@ section p {
   section {
     padding: 0 10px;
   }
+
+  nav a {
+    font-size: 1.6rem;
+  }
 }
