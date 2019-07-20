@@ -103,6 +103,10 @@ section p {
   /* text-align: center; */
 }
 
+.projects-section .sec-space {
+  border-bottom: none;
+}
+
 .project-cont {
   display: flex;
   margin-bottom: 20px;
@@ -140,6 +144,48 @@ section p {
   padding: 10px 0;
   border-radius: 3px;
   display: none;
+}
+
+.contact-section {
+  background-color: #a8c060;
+  color: white;
+}
+
+.contact-section p {
+  font-size: 2rem;
+}
+
+.contact-section a {
+  color: white;
+  font-weight: bold;
+}
+
+.contact-section .sec-space {
+  border-bottom: none;
+  padding: 60px 0;
+}
+
+.links-section {
+  color: white;
+  background-color: #92a84e;
+  text-align: right;
+}
+
+.links-section .sec-space {
+  border-bottom: none;
+  padding: 0px 0;
+}
+
+.social-media {
+  /* padding-top: 20px; */
+  font-size: 4.2rem;
+  /* text-align: center; */
+}
+
+.social-media a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
 }
 
 /* Media Queries */
@@ -201,6 +247,18 @@ section p {
     margin: 0px;
     border: none;
     border-bottom: 1px solid #a8c060;
+  }
+
+  .contact-section {
+    text-align: center;
+  }
+
+  .links-section {
+    text-align: center;
+  }
+
+  .social-media a {
+    margin: 0 10px;
   }
 }
 
