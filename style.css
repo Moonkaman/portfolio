@@ -103,6 +103,24 @@ section p {
   /* text-align: center; */
 }
 
+.project-cont {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+}
+
+.project-cont .pright {
+  padding: 10px;
+  font-size: 1.6rem;
+  position: relative;
+}
+
+.project-cont .pright .view {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
 /* Media Queries */
 
 /* @media all and (device-width: 414px) and (device-height: 896px) and (orientation: portrait) {
