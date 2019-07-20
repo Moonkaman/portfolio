@@ -130,6 +130,11 @@ section p {
   position: relative;
 }
 
+.project-cont .pright .proj-desc {
+  max-height: 75px;
+  overflow: auto;
+}
+
 .project-cont .pright .view {
   position: absolute;
   bottom: 10px;
