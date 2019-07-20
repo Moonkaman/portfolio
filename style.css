@@ -91,7 +91,7 @@ section p {
 .skill-card {
   border: 1px solid #a8c060;
   padding: 5px;
-  border-radius: 4px;
+  border-radius: 3px;
   color: #35536b;
   padding: 10px;
   margin-bottom: 20px;
@@ -107,6 +107,17 @@ section p {
   display: flex;
   margin-bottom: 20px;
   border: 1px solid lightgray;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.project-cont img {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  max-width: 250px;
+  /* border-right: 1px solid lightgray; */
+  box-shadow: 0 0 1px lightgray;
 }
 
 .project-cont .pright {
@@ -121,6 +132,16 @@ section p {
   right: 10px;
 }
 
+.project-cont .pright .mobile-btn {
+  background: #a8c060;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 3px;
+  display: none;
+}
+
 /* Media Queries */
 
 /* @media all and (device-width: 414px) and (device-height: 896px) and (orientation: portrait) {
@@ -132,6 +153,40 @@ section p {
 @media (max-width: 1000px) {
   .sec-space {
     padding: 50px 0;
+  }
+
+  .project-cont {
+    display: block;
+    margin-bottom: 35px;
+  }
+
+  .project-cont .pright {
+    position: static;
+  }
+
+  .project-cont img {
+    max-width: none;
+    max-height: none;
+  }
+
+  .project-cont .manaje-img {
+    content: url("Manaje-mobile.png");
+  }
+
+  .project-cont .insta-img {
+    content: url("Insta-mobile.png");
+  }
+
+  .project-cont .training-img {
+    content: url("Training-mobile.png");
+  }
+
+  .project-cont .pright .view {
+    display: none;
+  }
+
+  .project-cont .pright .mobile-btn {
+    display: block;
   }
 }
 
